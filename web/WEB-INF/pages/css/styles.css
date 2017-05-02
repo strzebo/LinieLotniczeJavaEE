@@ -1,0 +1,127 @@
+
+
+
+html, body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: bisque;
+    height:98%;
+}
+
+
+.header1 {
+    text-align:center;
+    font-size:larger;
+}
+
+div {
+    margin:0;
+    padding:2px;
+    vertical-align:top;
+    width:auto;
+}
+
+div.menu {
+    float: left;
+    width: 24%;
+    min-height: 98%;
+    height: auto ;
+    height: 98%;
+    margin-bottom: -80px;
+}
+
+div.page {
+    float: left;
+    width: 50%;
+    min-height: 98%;
+    height: auto;
+    height: 98%;
+    margin-bottom: -80px;
+}
+
+div.pozostale {
+    float: left;
+    width: 10%;
+    min-height: 98%;
+    height: auto;
+    height: 98%;
+    margin-bottom: -80px;
+}
+
+div.stopka {
+    
+    text-align:center;
+    vertical-align:middle;
+    border:double;
+    clear: both;
+    width: 50%;
+    clear: both;
+    height: 50px;
+    padding: 4px 25% 4px 25%; 
+}
+
+
+
+div.linia_1 {
+    width: inherit;
+    text-align:center;
+    padding: 4px 0 4px 0; 
+}
+
+div.linia {
+    text-align:center;
+    width: 50%;
+    padding: 4px 0 4px 25%; 
+}
+
+/*noinspection ALL*/
+div.komorka {
+    display: compact;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);    
+    line-height:35px;
+    text-align:center;
+    font-size:large;
+}
+
+div.komorka :hover {
+    background-color:darkgray;
+}
+
+p1 {
+    text-align:center;
+    font-style:italic;
+    font-size:larger;
+}
+
+.menu td:hover {
+    background-color:darkgray;
+}
+
+#tarcza {
+    position: absolute;
+}
+
+#godzina {
+    position: absolute;
+    z-index: 2;
+}
+
+#sekunda {
+    position: absolute;
+    z-index: 3;
+}
+
+#minuta {
+    position: absolute;
+    z-index: 1;
+}
+
+img.samolot {
+    width: 250px;
+    height: 150px;
+    transition: transform 0.5s;
+    border: double;
+}
+
+img.samolot:hover {
+        transform: scale(2.0);
+}
