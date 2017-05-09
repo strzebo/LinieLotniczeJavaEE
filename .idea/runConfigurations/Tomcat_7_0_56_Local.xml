@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Tomcat 7.0.56 Local" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.56" ALTERNATIVE_JRE_ENABLED="false">
-    <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pages/html/WEB-INF/pages/html/" />
+    <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pages/" />
     <option name="UPDATING_POLICY" value="restart-server" />
     <deployment>
       <artifact name="LinieLotniczeJavaEE:war exploded">
