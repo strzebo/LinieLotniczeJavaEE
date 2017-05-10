@@ -7,17 +7,35 @@ html, body {
     height:98%;
 }
 
-
-.header1 {
-    text-align:center;
-    font-size:larger;
-}
-
 div {
     margin:0;
     padding:2px;
     vertical-align:top;
     width:auto;
+}
+
+div.header1 {
+    text-align:center;
+    font-size:larger;
+}
+
+div.header_container {
+    border: dashed;
+    padding: 4px 0 4px 0;
+}
+
+div.jestes_tutaj {
+    border: groove;
+    padding: 0 0 0 20px;
+    width: 49%;
+
+}
+
+div.login {
+    border: groove;
+    width: 49%;
+    float : right;
+    text-align: left;
 }
 
 div.menu {
@@ -42,29 +60,18 @@ div.pozostale {
     float: left;
     width: 10%;
     min-height: 98%;
-    height: auto;
     height: 98%;
     margin-bottom: -80px;
 }
 
 div.stopka {
-    
     text-align:center;
     vertical-align:middle;
     border:double;
     clear: both;
     width: 50%;
-    clear: both;
     height: 50px;
     padding: 4px 25% 4px 25%; 
-}
-
-
-
-div.linia_1 {
-    width: inherit;
-    text-align:center;
-    padding: 4px 0 4px 0; 
 }
 
 div.linia {
