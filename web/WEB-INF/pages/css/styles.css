@@ -20,20 +20,17 @@ div.header1 {
 }
 
 div.header_container {
-    border: dashed;
     padding: 4px 0 4px 0;
 }
 
 div.jestes_tutaj {
-    border: groove;
     padding: 0 0 0 20px;
     width: 49%;
 
 }
 
 div.login {
-    border: groove;
-    width: 49%;
+    width: auto;
     float : right;
     text-align: left;
 }
@@ -67,7 +64,6 @@ div.pozostale {
 div.stopka {
     text-align:center;
     vertical-align:middle;
-    border:double;
     clear: both;
     width: 50%;
     height: 50px;
@@ -126,9 +122,15 @@ img.samolot {
     width: 250px;
     height: 150px;
     transition: transform 0.5s;
-    border: double;
 }
 
 img.samolot:hover {
         transform: scale(2.0);
+}
+
+input.login_box {
+    width: 150px;
+}
+input.login_button{
+    position: absolute;
 }
