@@ -1,6 +1,4 @@
 
-
-
 html, body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: bisque;
@@ -54,6 +52,7 @@ div.page {
 }
 
 div.pozostale {
+    text-align: center;
     float: left;
     width: 10%;
     min-height: 98%;
@@ -105,6 +104,44 @@ p1 {
 }
 
 #minuta {
+    position: absolute;
+    z-index: 1;
+}
+
+#tarczaNY {
+    position: absolute;
+}
+
+#godzinaNY {
+    position: absolute;
+    z-index: 2;
+}
+
+#sekundaNY {
+    position: absolute;
+    z-index: 3;
+}
+
+#minutaNY {
+    position: absolute;
+    z-index: 1;
+}
+
+#tarczaTokio {
+    position: absolute;
+}
+
+#godzinaTokio {
+    position: absolute;
+    z-index: 2;
+}
+
+#sekundaTokio {
+    position: absolute;
+    z-index: 3;
+}
+
+#minutaTokio {
     position: absolute;
     z-index: 1;
 }

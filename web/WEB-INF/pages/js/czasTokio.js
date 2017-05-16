@@ -1,8 +1,8 @@
-function Czas() {
+function CzasTokio() {
     var data = new Date();
     var sekunda = data.getSeconds();
     var minuta = data.getMinutes();
-    var godzina = data.getHours();
+    var godzina = data.getHours() +6;
 
     var s = sekunda * 6;
     var m = minuta * 6;
@@ -13,22 +13,22 @@ function Czas() {
     else
         h = godzina * 30;
 
-    var divS = document.getElementById("sekunda");
+    var divS = document.getElementById("sekundaTokio");
     divS.style.webkitTransform = "rotate(" + s + "deg)";
     divS.style.MozTransform = "rotate(" + s + "deg)";
     divS.style.OTransform = "rotate(" + s + "deg)";
     divS.style.msTransform = "rotate(" + s + "deg)";
-    var divM = document.getElementById("minuta");
+    var divM = document.getElementById("minutaTokio");
     divM.style.webkitTransform = "rotate(" + m + "deg)";
     divM.style.MozTransform = "rotate(" + m + "deg)";
     divM.style.OTransform = "rotate(" + m + "deg)";
     divM.style.msTransform = "rotate(" + m + "deg)";
-    var divH = document.getElementById("godzina");
+    var divH = document.getElementById("godzinaTokio");
     divH.style.webkitTransform = "rotate(" + (h + Hm) + "deg)";
     divH.style.MozTransform = "rotate(" + (h + Hm) + "deg)";
     divH.style.OTransform = "rotate(" + (h + Hm) + "deg)";
     divH.style.msTransform = "rotate(" + (h + Hm) + "deg)";
 
-    setTimeout(Czas, 1000);
+    setTimeout(CzasTokio, 1000);
 }
-window.onload = Czas;
+window.onload = CzasTokio;
