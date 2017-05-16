@@ -33,3 +33,7 @@ function Czas() {
     setTimeout(Czas, 1000);
 }
 window.onload = Czas;
+
+/*
+do zrobienia : zegary Nowy Jork ,Tokio, Warszawa
+ */
