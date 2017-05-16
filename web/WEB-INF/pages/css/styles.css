@@ -61,15 +61,6 @@ div.pozostale {
     margin-bottom: -80px;
 }
 
-div.stopka {
-    text-align:center;
-    vertical-align:middle;
-    clear: both;
-    width: 50%;
-    height: 50px;
-    padding: 4px 25% 4px 25%; 
-}
-
 div.linia {
     text-align:center;
     width: 50%;
@@ -130,7 +121,4 @@ img.samolot:hover {
 
 input.login_box {
     width: 150px;
-}
-input.login_button{
-
 }
