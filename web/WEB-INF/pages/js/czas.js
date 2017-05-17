@@ -34,11 +34,11 @@ function Czas() {
     setTimeout(Czas, 1000);
 }
 
-function CzasNY() {
+function CzasLA() {
     var data = new Date();
     var sekunda = data.getSeconds();
     var minuta = data.getMinutes();
-    var godzina = data.getHours() - 6;
+    var godzina = data.getHours() - 9;
 
     var s = sekunda * 6;
     var m = minuta * 6;
@@ -51,23 +51,23 @@ function CzasNY() {
     else
         h = godzina * 30;
 
-    var divS = document.getElementById("sekundaNY");
+    var divS = document.getElementById("sekundaLA");
     divS.style.webkitTransform = "rotate(" + s + "deg)";
     divS.style.MozTransform = "rotate(" + s + "deg)";
     divS.style.OTransform = "rotate(" + s + "deg)";
     divS.style.msTransform = "rotate(" + s + "deg)";
-    var divM = document.getElementById("minutaNY");
+    var divM = document.getElementById("minutaLA");
     divM.style.webkitTransform = "rotate(" + m + "deg)";
     divM.style.MozTransform = "rotate(" + m + "deg)";
     divM.style.OTransform = "rotate(" + m + "deg)";
     divM.style.msTransform = "rotate(" + m + "deg)";
-    var divH = document.getElementById("godzinaNY");
+    var divH = document.getElementById("godzinaLA");
     divH.style.webkitTransform = "rotate(" + (h + Hm) + "deg)";
     divH.style.MozTransform = "rotate(" + (h + Hm) + "deg)";
     divH.style.OTransform = "rotate(" + (h + Hm) + "deg)";
     divH.style.msTransform = "rotate(" + (h + Hm) + "deg)";
 
-    setTimeout(CzasNY, 1000);
+    setTimeout(CzasLA, 1000);
 }
 
 function CzasTokio() {
@@ -107,6 +107,6 @@ window.addEventListener("load", function () {
 
     console.log("test");
     Czas();
-    CzasNY();
+    CzasLA();
     CzasTokio();
 });
