@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="../css/styles.css" media="screen" />
     <meta charset="UTF-8">
 
-    <title>Przegląd tras</title>
+    <title>Wyniki wyszukiwania</title>
 </head>
 
 <body>
@@ -27,7 +27,7 @@
     </div>
 
     <div class="jestes_tutaj">
-        <p>jesteś tutaj : <p1><strong>Przegląd tras</strong></p1> </p>
+        <p>jesteś tutaj : <p1><strong>Wyniki wyszukiwania</strong></p1> </p>
     </div>
 </div>
 
@@ -65,29 +65,45 @@
 </div>
 
 <div class="page">
-    <form action="trasyWynik.html">
-        <div class="podzielTabele" >
-            Lotnisko startowe :  <br/>
-            Data odlotu : <br/><br/>
-        </div>
-        <div class="podzielTabele">
-            <input type="text" name="startowe"><br>
-            <input type="text" name="odlot"> <br/><br>
+    <div class="wynikWyszukiwania">
+        <h1 class="wyszukiwanieH">WYSZUKANE REKORDY</h1>
 
-            <input type="submit" value="Wyszukaj!">
-        </div>
-        <div class="podzielTabele">
-            Lotnisko docelowe : <br/>
-            Data przylotu : <br/>
-        </div>
-        <div>
-            <input type="text" name="docelowe"> <br/>
-            <input type="text" name="przylot"> <br/>
-        </div>
-        <div class="podzielTabele">
+        <br/><br/><br/>
 
-        </div>
-    </form>
+        <table class="wynikWyszukiwaniaTable">
+                <th>
+                    ID Lotu
+                </th>
+                <th>
+                    Lotnisko startowe
+                </th>
+                <th>
+                    Lotnisko docelowe
+                </th>
+                <th>
+                    Data odlotu
+                </th>
+                <th>
+                    Data przylotu
+                </th>
+                <th>
+                    Ilość miejsc
+                </th>
+                <th>
+                    Koszt biletu
+                </th>
+                <th>
+                    &nbsp;&nbsp;REZERWUJ!
+                </th>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+        </table>
+
+    </div>
 </div>
 
 <div class="pozostale">
@@ -116,5 +132,6 @@
 </div>
 
 <script type='text/javascript' src='../js/czas.js'></script>
+
 </body>
 </html>

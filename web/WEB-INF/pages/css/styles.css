@@ -170,3 +170,14 @@ input.message {
     width: 350px;
     height: 150px;
 }
+
+h1.wyszukiwanieH {
+    margin: auto;
+    width: 50%;
+}
+
+table.wynikWyszukiwaniaTable {
+    border: inset;
+    margin: auto;
+
+}
