@@ -152,3 +152,21 @@ input.login_box {
     width: 150px;
 }
 
+div.kontakt {
+}
+
+div.podzielTabele {
+    float: left;
+    line-height: 25px;
+}
+
+div.dol {
+    margin:auto;
+    width:50%;
+    text-align: center;
+}
+
+input.message {
+    width: 350px;
+    height: 150px;
+}
