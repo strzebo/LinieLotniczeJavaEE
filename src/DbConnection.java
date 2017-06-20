@@ -1,6 +1,4 @@
-/**
- * Created by strze on 19.06.2017.
- */
+
 import java.sql.*;
 
 public class DbConnection
